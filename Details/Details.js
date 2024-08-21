@@ -24,13 +24,13 @@ function displaySchemeDetails() {
 const reference = getQueryParameter("reference");
 const bank = getQueryParameter("bank");
 if (reference) {
-    schemeDetailsContainer.innerHTML = `<h3><a href="${reference}" target="_blank">To apply for the scheme, simply click here to visit the ${bank} official page.</a></h3>`;
+    schemeDetailsContainer.innerHTML = `<h5><a href="${reference}" target="_blank">To apply for the scheme, simply click here to visit the ${bank} official page.</a></h5>`;
 } else {
     schemeDetailsContainer.innerHTML = "<p>No reference parameter provided.</p>";
 }
  {
     const schemeDetailsContainer = document.getElementById("documents-required");
-            schemeDetailsContainer.innerHTML = `<h3>
+            schemeDetailsContainer.innerHTML = `<h5>
                 <span style="font-size:25px" class="input">1.</span> Duly filled and self-attested Application Form (proforma given the annexures of the scheme guidelines). <br>
                 <span style="font-size:25px" class="input">2.</span> Domicile Certificate                                                                       <br>                            
                 <span style="font-size:25px" class="input">3.</span> Residential Proof (Voter card/ Electricity Bill/Aadhar Card)                           <br>                          
@@ -39,7 +39,7 @@ if (reference) {
                 <span style="font-size:25px" class="input">6.</span> Bank Passbook                                                                                                <br>                 
                 <span style="font-size:25px" class="input">7.</span> Ration Card                                                                                                  <br>                       
                 <span style="font-size:25px" class="input">8.</span> Affidavit duly attested by Judicial Magistrate/Executive Magistrate that she/he is not in receipt of any pension/ financial assistance from any other source 
-                <br></h4>`;
+                <br></h5>`;
  }
  }
         window.onload = displaySchemeDetails;
