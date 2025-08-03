@@ -34,8 +34,3 @@ The **Unified Public Welfare** portal is designed to consolidate and provide eas
 - **Node.js:** 🖥️ Manages server-side operations and backend logic.
 
 ---
-
-### 🔗 Host Links 
-- **[Web Page]([https://your-live-demo-link.com](https://sptyogesh.github.io/UPW/HOME/index.html))**
-
----
